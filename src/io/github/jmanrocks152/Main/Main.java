@@ -1,3 +1,4 @@
+// I'm lazy but for future reference don't package it, youll get NZEC errors otherwise
 package io.github.jmanrocks152.Main;
 
 import java.util.ArrayList;
