@@ -24,15 +24,11 @@ public class Main {
         for (Integer coinValue : coinValues) {
             coinsToBeTested = coinValue;
             //While loop that does the actual calculations
-            while (coinsToBeTested - numberForRow > 0) {
+            while (coinsToBeTested - numberForRow >= 0) {
                 //If that checks whether or not we've run out of coins
-                if (coinsToBeTested - numberForRow == 0) {
-                    return;
-                } else {
                     coinsToBeTested -= numberForRow;
                     numberForRow++;
                     rows++;
-                }
             }
             System.out.println(rows);
             numberForRow = 1;
